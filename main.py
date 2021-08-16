@@ -20,7 +20,6 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-
     # 更新遊戲
     all_sprites.update()
     player.shoot()

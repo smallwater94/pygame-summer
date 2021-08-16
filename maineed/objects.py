@@ -39,7 +39,7 @@ class Player(pygame.sprite.Sprite):
         self.shoot_count += 1
         if self.shoot_count == shot_interval:
             bullet = Bullet(self.rect.centerx, self.rect.top)
-            all_sprites.add((bullet))
+            all_sprites.add(bullet)
             bullets.add(bullet)
             self.shoot_count = 0
 
